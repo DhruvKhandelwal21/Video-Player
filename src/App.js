@@ -116,7 +116,7 @@ const setPlayBack = (e) => {
         </Box>
         <FormControl size="small" >
   <Select
-    value={1}
+    value={playbackRate}
     
     onChange={setPlayBack}
   >
